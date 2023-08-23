@@ -1,0 +1,23 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:verycoolappdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: update # You might change this based on your preference
+    show-sql: true
+  web:
+    locale: en_US
+
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+
+springdoc:
+  api-docs:
+    enabled: true

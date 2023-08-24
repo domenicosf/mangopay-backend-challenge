@@ -20,7 +20,7 @@ To get started with VeryCoolApp, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/verycoolapp.git
+   git clone https://github.com/domenicosf/mangopay-backend-challenge.git
    ```
 
 2. Navigate to the project directory:
